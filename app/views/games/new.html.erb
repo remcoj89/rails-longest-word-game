@@ -1,0 +1,8 @@
+<div class="container">
+<h1>New game</h1>
+  <ul class="button-list">
+    <% @letters.each do |letter| %>
+    <li class="button"><%= letter.capitalize %></Li>
+    <% end %>
+  </ul>
+</div>
